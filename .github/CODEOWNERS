@@ -2,9 +2,9 @@
 *   @cyberoslab
 
 # Docs
-/docs/** @gitadvisor @AnaisUrlichs @itaysk
-/mkdocs.yml @gitadvisor @AnaisUrlichs @itaysk
-/README.md @gitadvisor @AnaisUrlichs @itaysk
+/docs/** @gitadvisor
+/mkdocs.yml @gitadvisor
+/README.md @gitadvisor
 
 # Helm chart
 helm/cvescan/ @chen-keinan
