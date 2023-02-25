@@ -1,0 +1,11 @@
+apiVersion: v2
+name: cvescan
+version: 0.6.0
+appVersion: 0.37.2
+description: cvescan helm chart
+keywords:
+  - scanner
+  - cvescan
+  - vulnerability
+sources:
+  - https://github.com/w3security/cvescan
