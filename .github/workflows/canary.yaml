@@ -31,28 +31,28 @@ jobs:
           key: ${{ runner.os }}-bins-${{github.workflow}}-${{github.sha}}
 
         # Upload artifacts
-      - name: Upload artifacts (trivy_Linux-64bit)
+      - name: Upload artifacts (cvescan_Linux-64bit)
         uses: actions/upload-artifact@v3
         with:
           name: cvescan_Linux-64bit
-          path: dist/trivy_*_Linux-64bit.tar.gz
+          path: dist/cvescan_*_Linux-64bit.tar.gz
           if-no-files-found: error
 
-      - name: Upload artifacts (trivy_Linux-ARM64)
+      - name: Upload artifacts (cvescan_Linux-ARM64)
         uses: actions/upload-artifact@v3
         with:
           name: cvescan_Linux-ARM64
-          path: dist/trivy_*_Linux-ARM64.tar.gz
+          path: dist/cvescan_*_Linux-ARM64.tar.gz
           if-no-files-found: error
 
-      - name: Upload artifacts (trivy_macOS-64bit)
+      - name: Upload artifacts (cvescan_macOS-64bit)
         uses: actions/upload-artifact@v3
         with:
           name: cvescan_macOS-64bit
-          path: dist/trivy_*_macOS-64bit.tar.gz
+          path: dist/cvescan_*_macOS-64bit.tar.gz
           if-no-files-found: error
 
-      - name: Upload artifacts (trivy_macOS-ARM64)
+      - name: Upload artifacts (cvescan_macOS-ARM64)
         uses: actions/upload-artifact@v3
         with:
           name: cvescan_macOS-ARM64
