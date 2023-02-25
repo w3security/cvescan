@@ -99,7 +99,7 @@ jobs:
             public.ecr.aws/w3security/cvescan:canary
 
       - name: Cache cvescan binaries
-        uses: actions/cache@v3.2.4
+        uses: actions/cache@v3.2.6
         with:
           path: dist/
           # use 'github.sha' to create a unique cache folder for each run.
